@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+table {
+    border: 1px solid black;
+}
+col:nth-child(2n) {
+    background: lightblue;
+}
+col:first-child {
+    background: lightseagreen;
+}
+th {
+    background: lightseagreen;
+    font-weight: normal;
+}
+th, td {
+    border: 1px solid black;
+    border-spacing: 3px;
+    padding: 3px;
+}
