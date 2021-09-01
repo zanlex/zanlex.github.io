@@ -1,5 +1,16 @@
 body {
     font-family: Arial, sans-serif;
+    color: #3d3a3a;
+    background: #efefef url("../images/IMG_1104.JPG") no-repeat top center;
+    background-attachment: scroll;
+}
+#doc {
+    background-color: rgba(221, 221, 221, 0.5);
+    position: absolute;
+    padding: 2em;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
 }
 table {
     border: 1px solid black;
